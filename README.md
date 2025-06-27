@@ -16,8 +16,15 @@ Here are some questions:
   - What's the format of the tests, and the protocol?  e.g. `$SH` vs. `$TEST_SHELL`
 - Can we agree on what the shell language is?
   - It's not just POSIX anymore!
-  - Maybe it's "Bashix" -- `bash mksh ksh sush brush osh` agree on hundreds of
-    tests that other shells don't.
+  - Maybe it's "Bashix" -- `bash mksh ksh sush brush osh` agree on **hundreds**
+    of tests that other shells don't.
+- Which constructs do shells **disagree** the most on?  Some candidates:
+  - [Unset](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/ble-unset.html)
+    - (I recall a survey that Koichi Murase did on Github)
+  - [Special Builtins](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/builtin-special.html)
+
+Why care about this?  I think shell **users** should have a well-defined
+language to write.
 
 We can use the discussions and wiki to sort out these questions!
 
