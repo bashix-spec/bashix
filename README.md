@@ -26,7 +26,9 @@ Here are some questions:
 Why care about this?  I think shell **users** should have a well-defined
 language to write.
 
-We can use the discussions and wiki to sort out these questions!
+We can use the [discussions](https://github.com/bashix-spec/bashix/discussions)
+and [wiki](https://github.com/bashix-spec/bashix/wiki) to sort out these
+questions!
 
 [Smoosh]: https://github.com/mgree/smoosh/tree/master/tests/shell
 
