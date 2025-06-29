@@ -12,7 +12,7 @@ Here are some questions:
   - We also run the [Smoosh][] test suite, linked from our [quality
     page](https://oils.pub/release/latest/quality.html)
 - Can tests be shared across shell implementations?
-  - What's the sucess criteria?  *Bash oracle mode* versus *Assertions*
+  - What's the success criteria?  *Bash oracle mode* versus *Assertions*
   - What's the format of the tests, and the protocol?  e.g. `$SH` vs. `$TEST_SHELL`
 - Can we agree on what the shell language is?
   - It's not just POSIX anymore!
@@ -29,3 +29,14 @@ language to write.
 We can use the discussions and wiki to sort out these questions!
 
 [Smoosh]: https://github.com/mgree/smoosh/tree/master/tests/shell
+
+---
+
+Some more motivation:
+
+> Even BASH doesn't have 100% bash conformance. (Half my arguments with Chet
+> _cause_ version skew, which I see as a bug and he sees as a feature.  I ask
+> him to explain a corner case and he FIXES it, but then what do I put in the
+> test suite ... ?
+
+- Rob Landley (of [toysh](https://landley.net/toybox/))
