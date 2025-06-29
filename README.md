@@ -19,9 +19,11 @@ Here are some questions:
   - Maybe it's "Bashix" -- `bash mksh ksh sush brush osh` agree on **hundreds**
     of tests that other shells don't.
 - Which constructs do shells **disagree** the most on?  Some candidates:
-  - [Unset](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/ble-unset.html)
-    - (I recall a survey that Koichi Murase did on Github)
-  - [Special Builtins](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/builtin-special.html)
+  - The semantics of [POSIX special Builtins](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/builtin-special.html)
+  - The semantics of `unset`
+    - [Survey from Koichi on Github](https://github.com/oils-for-unix/oils/issues/706#issuecomment-615578349) (2020)
+    - [spec/ble-unset](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/ble-unset.html)
+    - [spec/ble-features](https://pages.oils.pub/spec-compat/2025-06-26/renamed-tmp/spec/compat/ble-features.html)
 
 Why care about this?  I think shell **users** should have a well-defined
 language to write.
