@@ -39,4 +39,4 @@ Some more motivation:
 > him to explain a corner case and he FIXES it, but then what do I put in the
 > test suite ... ?
 
-- Rob Landley (of [toysh](https://landley.net/toybox/))
+&mdash; Rob Landley (of [toysh](https://landley.net/toybox/))
