@@ -9,8 +9,7 @@ for sh in bash dash mksh zsh; do
 
   $sh -c '
 #### command -v with multiple names
-myfunc() { echo x; }
-command -v echo myfunc ZZZ for
+command -v echo ZZZ for
 echo status=$?
 '
 done
